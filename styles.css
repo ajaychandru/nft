@@ -172,7 +172,7 @@ h6{
         background-color: hsl(216, 50%, 16%);               /*setting section propertie*/
         position: absolute;
         width:60vw;
-        height:140vw;
+        height:150vw;
         left:20vw;
         top: 12.5vw;
         border-radius: 1rem;
@@ -289,7 +289,7 @@ h6{
     .time{
         font-family: outfit;
         position: relative;
-        margin-left: 20vw;
+        margin-left: 15vw;
         font-weight: 300;
         opacity: .7;
         color: hsl(215, 51%, 70%);
