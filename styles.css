@@ -1,0 +1,316 @@
+@font-face {
+    font-family: outfit;                                /* adding font family*/
+    src: url(./fonts/Outfit-Regular.ttf);
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    width:100vw;                                         /* setting body properties*/
+    height: 55vw;
+}
+section{
+    background-color: hsl(216, 50%, 16%);               /*setting section propertie*/
+    position: absolute;
+    width:20vw;
+    height:35vw;
+    left:40vw;
+    top:7.5vw;
+    border-radius: 1rem;
+}
+.container{
+    position:absolute;
+    left:10%;
+    width:80%;
+    height:50%;
+    top:5%;
+    
+}
+.photo{
+    position:absolute;                                /*adjusting photo width and opacity*/
+    width:100%;
+    height:100%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.overlay {                                          /*adding overlay*/
+    position:absolute;                                      
+ 
+    width:100%;
+    height:100%;
+    
+   opacity: 0;
+   background-color:  hsl(178, 100%, 50%);;
+   transition: .5s ease;
+
+
+  }
+  
+  .eye{
+    position:absolute;                                  /*adding eye*/
+    top:40%;
+    left:37.5%;
+    width:5vw;
+   height:5vw;
+   opacity: 1;
+  }
+  .container:hover .photo {
+    opacity: .4;                                        /*overlaay transitionb*/
+  }
+  .container:hover .overlay {
+    opacity: .5;
+  }
+
+  
+h3{
+    position:absolute;                                  
+    top:55%;
+    left:10%;
+    width:fit-content;
+    color: white;
+    font-size:1.5vw;
+    font-weight: 300;
+    font-family: outfit;
+    cursor: pointer;
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);                         
+}
+p{
+    position:absolute;
+    top:65%;
+    left:10%;
+    width:fit-content;
+    color:white;
+    font-family: outfit;
+    font-size: 1.1vw;
+    font-weight: 300;
+    opacity: .5;
+}
+
+h5{
+    position:absolute;
+    top:72.5%;
+    left:10%;
+    width:fit-content;
+    color: hsl(178, 100%, 50%);
+    font-weight: 300;
+    font-family: outfit;
+    font-size: 1.2vw;
+   
+    
+}
+hr{
+    position: absolute;
+    border: .1rem solid hsl(215, 32%, 27%);
+    
+    top:83%;
+    left:10%;
+    width: 80%;
+    
+}
+.author{
+    position: absolute;
+    width: 8%;
+    height:8%;
+    left:10%;
+    top:90%;
+    
+    
+}
+h6{
+    position: absolute;
+    top: 83%;
+    left:22.5%;
+    font-family: outfit;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    font-size: 1.2vw;
+   
+} 
+    
+
+
+
+.time{
+    font-family: outfit;
+    position: relative;
+    margin-left: 3vw;
+    font-weight: 300;
+    opacity: .7;
+    color: hsl(215, 51%, 70%);
+    
+}
+.name{
+    position: relative;
+    margin-left: .2rem;
+    color: white;
+    font-family: outfit;
+    font-weight: 300;
+    cursor: pointer;
+   
+
+}
+.name:hover{
+    color: hsl(178, 100%, 50%);
+}
+.ethereum{
+    width: 1vw;
+    height:1vw;
+}
+
+@media screen and (max-width:375px) {
+    @font-face {
+        font-family: outfit;                                /* adding font family*/
+        src: url(./fonts/Outfit-Regular.ttf);
+    }
+    body{
+        background-color:  hsl(217, 54%, 11%);
+        width:100vw;                                         /* setting body properties*/
+        height: 120vw;
+    }
+    section{
+        background-color: hsl(216, 50%, 16%);               /*setting section propertie*/
+        position: absolute;
+        width:60vw;
+        height:80vw;
+        left:20vw;
+        top:7.5vw;
+        border-radius: 1rem;
+    }
+    .container{
+        position:absolute;
+        left:10%;
+        width:80%;
+        height:50%;
+        top:5%;
+        
+    }
+    .photo{
+        position:absolute;                                /*adjusting photo width and opacity*/
+        width:100%;
+        height:100%;
+        opacity: 1;
+        transition: .5s ease;
+    }
+    
+    .overlay {                                          /*adding overlay*/
+        position:absolute;                                      
+        width:100%;
+        height:100%;
+       opacity: 0;
+       background-color:  hsl(178, 100%, 50%);;
+       transition: .5s ease;
+    
+    
+      }
+      
+      .eye{
+        position:absolute;                                  /*adding eye*/
+        top:40%;
+        left:37.5%;
+        width:5vw;
+       height:5vw;
+       opacity: 1;
+      }
+      .container:hover .photo {
+        opacity: .4;                                        /*overlaay transitionb*/
+      }
+      .container:hover .overlay {
+        opacity: .5;
+      }
+    
+      
+    h3{
+        position:absolute;                                  
+        top:60%;
+        left:10%;
+        width:fit-content;
+        color: white;
+        font-size:2vw;
+        font-weight: 300;
+        font-family: outfit;
+        cursor: pointer;
+    }
+    h3:hover{
+        color: hsl(178, 100%, 50%);                         
+    }
+    p{
+        position:absolute;
+        top:67%;
+        left:10%;
+        width:fit-content;
+        color:white;
+        font-family: outfit;
+        font-size: 2vw;
+        font-weight: 300;
+        opacity: .5;
+    }
+    
+    h5{
+        position:absolute;
+        top:72.5%;
+        left:10%;
+        width:fit-content;
+        color: hsl(178, 100%, 50%);
+        font-weight: 300;
+        font-family: outfit;
+        font-size: 2vw;
+       
+        
+    }
+    hr{
+        position: absolute;
+        border: .1rem solid hsl(215, 32%, 27%);
+        
+        top:83%;
+        left:10%;
+        width: 80%;
+        
+    }
+    .author{
+        position: absolute;
+        width: 8%;
+        height:8%;
+        left:10%;
+        top:90%;
+        
+        
+    }
+    h6{
+        position: absolute;
+        top: 86.5%;
+        left:25%;
+        font-family: outfit;
+        font-weight: 300;
+        color:hsl(215, 51%, 70%);
+        font-size: 2vw;
+       
+    } 
+    .time{
+        font-family: outfit;
+        position: relative;
+        margin-left: 25vw;
+        font-weight: 300;
+        opacity: .7;
+        color: hsl(215, 51%, 70%);
+        
+    }
+    .name{
+        position: relative;
+        margin-left: .2rem;
+        color: white;
+        font-family: outfit;
+        font-weight: 300;
+        cursor: pointer;
+       
+    
+    }
+    .name:hover{
+        color: hsl(178, 100%, 50%);
+    }
+    .ethereum{
+        width: 1.5vw;
+        height:1.5vw;
+    }
+    
+}
