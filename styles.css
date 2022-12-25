@@ -174,7 +174,7 @@ h6{
         width:60vw;
         height:140vw;
         left:20vw;
-        top: 10vw;
+        top: 12.5vw;
         border-radius: 1rem;
     }
     .container{
@@ -226,7 +226,7 @@ h6{
         left:10%;
         width:fit-content;
         color: white;
-        font-size:3.5vw;
+        font-size:4vw;
         font-weight: 300;
         font-family: outfit;
         cursor: pointer;
@@ -241,7 +241,7 @@ h6{
         width:fit-content;
         color:white;
         font-family: outfit;
-        font-size: 3vw;
+        font-size: 3.5vw;
         font-weight: 300;
         opacity: .5;
     }
@@ -254,7 +254,7 @@ h6{
         color: hsl(178, 100%, 50%);
         font-weight: 300;
         font-family: outfit;
-        font-size: 3vw;
+        font-size: 3.5vw;
        
         
     }
@@ -283,7 +283,7 @@ h6{
         font-family: outfit;
         font-weight: 300;
         color:hsl(215, 51%, 70%);
-        font-size: 3vw;
+        font-size: 3.5vw;
        
     } 
     .time{
@@ -309,8 +309,8 @@ h6{
         color: hsl(178, 100%, 50%);
     }
     .ethereum{
-        width:2vw;
-        height:2vw;
+        width:2.5vw;
+        height:2.5vw;
     }
     
 }
